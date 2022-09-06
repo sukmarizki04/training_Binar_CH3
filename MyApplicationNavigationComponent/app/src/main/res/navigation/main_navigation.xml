@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragment_Satu">
+
+    <fragment
+        android:id="@+id/fragment_Satu"
+        android:name="com.example.myapplicationnavigationcomponent.Fragment_Satu"
+        android:label="fragment__satu"
+        tools:layout="@layout/fragment__satu" >
+        <action
+            android:id="@+id/action_fragment_Satu_to_fragment_Kedua"
+            app:destination="@id/fragment_Kedua" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Kedua"
+        android:name="com.example.myapplicationnavigationcomponent.Fragment_Kedua"
+        android:label="fragment__kedua"
+        tools:layout="@layout/fragment__kedua" >
+        <action
+            android:id="@+id/action_fragment_Kedua_to_fragmentketiga"
+            app:destination="@id/fragmentketiga" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentketiga"
+        android:name="com.example.myapplicationnavigationcomponent.Fragmentketiga"
+        android:label="fragment_fragmentketiga"
+        tools:layout="@layout/fragment_fragmentketiga" />
+</navigation>

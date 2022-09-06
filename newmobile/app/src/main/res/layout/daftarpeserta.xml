@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="2">
+
+        <TableRow android:background="@color/material_dynamic_neutral70">
+
+            <TextView
+                android:padding="3dp"
+                android:text="No" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="Nama" />
+
+            <TextView
+                android:layout_column="2"
+                android:padding="3dp"
+                android:text="Alamat" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="NoHp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="1" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="sukma" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="Dusun III Teluk sentosa" />
+
+            <TextView android:inputType="none" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="2" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="Paij0" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="jln.ahmad" />
+
+            <TextView android:inputType="none" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="3" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="Mukidi" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="simpang len" />
+
+            <TextView android:inputType="none" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dp"
+                android:text="4" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="Udin" />
+
+            <TextView
+                android:padding="3dp"
+                android:text="pasar sentosa" />
+
+            <TextView android:inputType="none" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

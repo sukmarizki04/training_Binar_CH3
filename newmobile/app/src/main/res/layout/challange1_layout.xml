@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="326dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTintMode="screen"
+        android:src="@drawable/img_1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        >
+
+        <TextView
+            android:id="@+id/testing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="70dp"
+            android:text="Home"
+            android:background="@color/teal_700"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/teal_700"
+            android:text="About"
+            android:textColor="@color/black"
+            android:textSize="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140sp"
+            android:text="Daftar Pembeli "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Razer Generasi"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="2"
+        >
+        <TableRow android:background="@color/material_dynamic_neutral70">
+            <TextView
+                android:padding="3dp"
+                android:text="No" />
+            <TextView
+                android:padding="3dp"
+                android:layout_column="1"
+                android:text="Nama"/>
+            <TextView
+                android:padding="3dp"
+                android:layout_column="2"
+                android:text="Alamat"/>
+            <TextView
+                android:layout_column="1"
+                android:padding="3dp"
+                android:text="NoHp"/>
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:text="1"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="sukma"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="Dusun III Teluk sentosa"
+                android:padding="3dp"
+                />
+            <TextView
+                android:inputType="none"/>
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:text="2"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="Paij0"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="jln.ahmad"
+                android:padding="3dp"
+                />
+            <TextView
+                android:inputType="none"/>
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:text="3"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="Mukidi"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="simpang len"
+                android:padding="3dp"
+                />
+            <TextView
+                android:inputType="none"/>
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:text="4"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="Udin"
+                android:padding="3dp"
+                />
+            <TextView
+                android:text="pasar sentosa"
+                android:padding="3dp"
+                />
+            <TextView
+                android:inputType="none"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
